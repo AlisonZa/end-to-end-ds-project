@@ -20,3 +20,20 @@ class DataValidationConfig():
 class DataTransformationConfig():
     root_dir: Path
     data_path: Path
+
+@dataclass
+class ModelTrainerConfig():
+  # config.yaml
+  root_dir: Path
+  X_train_data_path: Path
+  X_test_data_path: Path
+  y_train_data_path: Path
+  y_test_data_path: Path
+  model_name: str
+
+  # params.yaml
+  alpha: float
+  l1_ratio: float
+  
+  # schema.yaml
+  target_column: str 

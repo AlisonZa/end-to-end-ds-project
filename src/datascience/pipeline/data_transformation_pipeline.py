@@ -19,7 +19,7 @@ class DataTransformationTrainingPipeline:
             data_transformation_object = DataTransformation(data_transformation_config)
 
             # Split and save
-            X_train, X_test, y_train, y_test = data_transformation_object.splitS_data()
+            X_train, X_test, y_train, y_test = data_transformation_object.split_data()
             data_transformation_object.save_splits(X_train, X_test, y_train, y_test)
 
             logger.info(f"{">"*10} Stage: {self.stage_name} completed {"<"*10}")

@@ -24,6 +24,7 @@ class DataValidationTrainingPipeline:
 
             logger.info(f"{">"*10} Stage: {self.stage_name} completed {"<"*10}")
 
+            return validate_column_names_status, validate_column_type_status 
 
         except Exception as e:
             logger.error(f"Error during data_validation. Error {e}")

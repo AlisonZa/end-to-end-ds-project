@@ -1,6 +1,6 @@
 from src.datascience.constants import CONFIG_FILEPATH, PARAMS_FILEPATH, SCHEMA_FILEPATH
 from src.datascience.utils.commons import read_yaml, create_directories
-from src.datascience.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig
+from src.datascience.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
 
 class ConfigurationManager():
     def __init__(self, # recebe os parâmetros que seram usados para instanciar as propriedades p/leitura
@@ -56,3 +56,29 @@ class ConfigurationManager():
             )
         
         return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+        
+        config = self.config.model_trainer # change the "section" of the config file
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMNS
+
+
+        create_directories([config.root_dir]) # cria o /artifacts/model_trainer
+
+        model_trainer_config = ModelTrainerConfig(
+            root_dir= config.root_dir,
+            X_train_data_path= config.X_train_data_path,
+            X_test_data_path= config.X_test_data_path,
+            y_train_data_path= config.y_train_data_path,
+            y_test_data_path= config.y_test_data_path,
+            model_name = config.model_name,
+
+            alpha= params.alpha,
+            l1_ratio= params.l1_ratio,
+            
+            target_column= schema.name,
+
+            )
+        
+        return model_trainer_config
