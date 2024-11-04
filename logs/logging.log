@@ -1,0 +1,92 @@
+[2024-11-03 21:13:05,431: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:13:05,436: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:14:19,026: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:14:19,029: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:16:16,602: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:16:16,604: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:17:24,419: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:17:24,423: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:19:04,812: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:19:04,817: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:19:04,833: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-03 21:19:04,837: INFO: commons: created directory at: artifacts ]
+[2024-11-03 21:19:04,842: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-03 21:19:26,704: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:19:26,708: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:19:26,711: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-03 21:19:26,714: INFO: commons: created directory at: artifacts ]
+[2024-11-03 21:19:26,716: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-03 21:19:27,915: INFO: 981039823: artifacts/data_ingestion/data.zip download! With the following infl 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE1A:346BBE:2B84E2:333D38:6728130E
+Accept-Ranges: bytes
+Date: Mon, 04 Nov 2024 00:19:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-gru-sbgr1930038-GRU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1730679567.444589,VS0,VE237
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a32e6e1ad3757e9b18ddbc4105261b36a792db62
+Expires: Mon, 04 Nov 2024 00:24:27 GMT
+Source-Age: 0
+
+ ]
+[2024-11-03 21:19:45,703: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:19:45,706: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:19:45,708: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-03 21:19:45,710: INFO: commons: created directory at: artifacts ]
+[2024-11-03 21:19:45,712: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-03 21:19:45,713: INFO: 981039823: File already exists ]
+[2024-11-03 21:48:14,113: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 21:48:14,139: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 21:48:14,144: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-03 21:48:14,147: INFO: commons: created directory at: artifacts ]
+[2024-11-03 21:48:14,150: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-03 21:48:14,153: INFO: 981039823: File already exists ]
+[2024-11-03 22:32:22,679: INFO: main: Welcome to our Custom Logging Functionality ]
+[2024-11-03 22:32:22,679: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage started <<<<<<<<<< ]
+[2024-11-03 22:32:22,684: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-03 22:32:22,688: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-03 22:32:22,690: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-03 22:32:22,691: INFO: commons: created directory at: artifacts ]
+[2024-11-03 22:32:22,693: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-03 22:32:23,634: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! With the following infl 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EE1A:346BBE:2B84E2:333D38:6728130E
+Accept-Ranges: bytes
+Date: Mon, 04 Nov 2024 01:32:23 GMT
+Via: 1.1 varnish
+X-Served-By: cache-gru-sbgr1930071-GRU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1730683943.059835,VS0,VE213
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7fe68a92fd27b0851236107edbe2df305bbeed22
+Expires: Mon, 04 Nov 2024 01:37:23 GMT
+Source-Age: 0
+
+ ]
+[2024-11-03 22:32:23,667: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]

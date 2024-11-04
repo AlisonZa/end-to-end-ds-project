@@ -4,3 +4,6 @@ venv/
 
 # Ignore environment variable files
 .env
+
+logs/
+artifacts/
