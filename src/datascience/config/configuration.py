@@ -1,6 +1,6 @@
 from src.datascience.constants import CONFIG_FILEPATH, PARAMS_FILEPATH, SCHEMA_FILEPATH
 from src.datascience.utils.commons import read_yaml, create_directories
-from src.datascience.entity.config_entity import DataIngestionConfig
+from src.datascience.entity.config_entity import DataIngestionConfig, DataValidationConfig
 
 class ConfigurationManager():
     def __init__(self, # recebe os parâmetros que seram usados para instanciar as propriedades p/leitura
@@ -28,3 +28,18 @@ class ConfigurationManager():
             unzip_dir = config.unzip_dir)
         
         return data_ingestion_config
+    
+    def get_data_validation_config(self) -> DataValidationConfig:
+        
+        config = self.config.data_validation # change the "section" of the config file
+        schema = self.schema.FEATURE_COLUMNS
+        
+        create_directories([config.root_dir])
+
+        data_validation_config = DataValidationConfig(
+            root_dir = config.root_dir,
+            unzip_data_dir = config.unzip_data_dir,
+            STATUS_FILE = config.STATUS_FILE,
+            schema = schema)
+        
+        return data_validation_config

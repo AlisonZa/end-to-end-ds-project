@@ -90,3 +90,162 @@ Source-Age: 0
 
  ]
 [2024-11-03 22:32:23,667: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]
+[2024-11-04 10:39:04,038: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:39:04,050: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:39:04,055: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:39:04,057: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:39:04,058: ERROR: 3980546450: Error during data_ingestion. Error "'ConfigBox' object has no attribute 'columns'" ]
+[2024-11-04 10:41:07,789: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:41:07,793: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:41:07,800: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:41:07,802: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:41:07,805: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 10:41:07,825: ERROR: 3980546450: Error during data_ingestion. Error 'Index' object has no attribute 'dtypes' ]
+[2024-11-04 10:42:18,363: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:42:18,367: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:42:18,373: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:42:18,377: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:42:18,379: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 10:42:18,393: ERROR: 4008658730: Error during data_ingestion. Error 'Index' object has no attribute 'dtypes' ]
+[2024-11-04 10:44:39,879: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:44:39,883: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:44:39,889: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:44:39,892: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:44:39,894: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 10:47:05,947: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:47:05,950: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:47:05,955: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:47:05,958: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:47:05,961: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 10:47:53,594: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:47:53,598: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:47:53,605: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:47:53,608: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:47:53,612: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 10:48:49,698: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 10:48:49,702: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 10:48:49,708: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 10:48:49,711: INFO: commons: created directory at: artifacts ]
+[2024-11-04 10:48:49,713: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:02:21,093: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:02:21,099: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:02:21,103: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:02:21,106: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:02:21,109: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:05:12,245: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:05:12,253: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:05:12,257: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:05:12,259: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:05:12,261: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:18:51,804: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage started <<<<<<<<<< ]
+[2024-11-04 11:18:51,810: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:18:51,812: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:18:51,815: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:18:51,817: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:18:51,818: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-04 11:18:54,493: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! With the following infl 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 25B6:28CF72:5533D8:646CCB:6728D7CD
+Accept-Ranges: bytes
+Date: Mon, 04 Nov 2024 14:18:54 GMT
+Via: 1.1 varnish
+X-Served-By: cache-gru-sbgr1930025-GRU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1730729934.040279,VS0,VE210
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 23019fb6cbde4146a5e9cb0e642826c5c835eae8
+Expires: Mon, 04 Nov 2024 14:23:54 GMT
+Source-Age: 0
+
+ ]
+[2024-11-04 11:18:54,519: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]
+[2024-11-04 11:18:54,520: INFO: data_validation_pipeline: >>>>>>>>>> Stage: Data Validation Stage started <<<<<<<<<< ]
+[2024-11-04 11:18:54,524: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:18:54,525: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:18:54,528: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:18:54,529: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:18:54,530: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:18:54,530: ERROR: data_validation_pipeline: Error during data_validation. Error DataValidationConfig() takes no arguments ]
+[2024-11-04 11:27:37,043: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage started <<<<<<<<<< ]
+[2024-11-04 11:27:37,048: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:27:37,050: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:27:37,053: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:27:37,054: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:27:37,055: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-04 11:27:37,056: INFO: data_ingestion: File already exists ]
+[2024-11-04 11:27:37,063: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]
+[2024-11-04 11:27:37,064: INFO: data_validation_pipeline: >>>>>>>>>> Stage: Data Validation Stage started <<<<<<<<<< ]
+[2024-11-04 11:27:37,069: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:27:37,071: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:27:37,075: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:27:37,076: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:27:37,077: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:27:37,078: ERROR: data_validation_pipeline: Error during data_validation. Error DataValidationConfig() takes no arguments ]
+[2024-11-04 11:29:47,453: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage started <<<<<<<<<< ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:29:47,469: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-04 11:29:47,469: INFO: data_ingestion: File already exists ]
+[2024-11-04 11:29:47,469: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]
+[2024-11-04 11:29:47,469: INFO: data_validation_pipeline: >>>>>>>>>> Stage: Data Validation Stage started <<<<<<<<<< ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:29:47,469: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:29:47,484: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:29:47,484: ERROR: data_validation_pipeline: Error during data_validation. Error DataValidationConfig() takes no arguments ]
+[2024-11-04 11:31:48,815: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage started <<<<<<<<<< ]
+[2024-11-04 11:31:48,821: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:31:48,822: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:31:48,825: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:31:48,826: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:31:48,828: INFO: commons: created directory at: artifacts/data_ingestion ]
+[2024-11-04 11:31:49,484: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! With the following infl 
+ Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 25B6:28CF72:5533D8:646CCB:6728D7CD
+Accept-Ranges: bytes
+Date: Mon, 04 Nov 2024 14:31:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-gru-sbgr1930030-GRU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1730730709.025342,VS0,VE189
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 18eb4aa990f9ccb4efe1a69cb515414eb0a7a5fc
+Expires: Mon, 04 Nov 2024 14:36:49 GMT
+Source-Age: 0
+
+ ]
+[2024-11-04 11:31:49,509: INFO: data_ingestion_pipeline: >>>>>>>>>> Stage: Data Ingestion Stage completed <<<<<<<<<< ]
+[2024-11-04 11:31:49,509: INFO: data_validation_pipeline: >>>>>>>>>> Stage: Data Validation Stage started <<<<<<<<<< ]
+[2024-11-04 11:31:49,514: INFO: commons: yaml file: config\config.yaml loaded successfully ]
+[2024-11-04 11:31:49,515: INFO: commons: yaml file: params.yaml loaded successfully ]
+[2024-11-04 11:31:49,518: INFO: commons: yaml file: schema.yaml loaded successfully ]
+[2024-11-04 11:31:49,519: INFO: commons: created directory at: artifacts ]
+[2024-11-04 11:31:49,520: INFO: commons: created directory at: artifacts/data_validation ]
+[2024-11-04 11:31:49,547: INFO: data_validation_pipeline: >>>>>>>>>> Stage: Data Validation Stage completed <<<<<<<<<< ]
