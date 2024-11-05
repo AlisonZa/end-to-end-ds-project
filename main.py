@@ -1,6 +1,3 @@
-# from src.datascience.config.configuration import ConfigurationManager
-# from src.datascience.components.data_ingestion import DataIngestion
-# from src.datascience.components.data_validation import DataValidation
 
 from src.datascience.utils import logger
 import sys
@@ -8,9 +5,17 @@ from src.datascience.pipeline.data_ingestion_pipeline import DataIngestionTraini
 from src.datascience.pipeline.data_validation_pipeline import DataValidationTrainingPipeline
 from src.datascience.pipeline.data_transformation_pipeline import DataTransformationTrainingPipeline
 from src.datascience.pipeline.model_trainer_pipeline import ModelTrainingPipeline
+from src.datascience.pipeline.model_evaluation_pipeline import ModelEvaluationPipeline
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+os.environ["MLFLOW_TRACKING_URI"] = os.getenv("MLFLOW_TRACKING_URI")
+os.environ["MLFLOW_TRACKING_USERNAME"] = os.getenv("MLFLOW_TRACKING_USERNAME")
+os.environ["MLFLOW_TRACKING_PASSWORD"] = os.getenv("MLFLOW_TRACKING_PASSWORD")
 
 
-# entry_point
+# entry_points/pipelines
 if __name__ == "__main__":
     STAGE_NAME = "Data Ingestion Stage"
     DataIngestionTrainingPipeline(STAGE_NAME).initiate_data_ingestion()
@@ -27,6 +32,9 @@ if __name__ == "__main__":
     
     STAGE_NAME = "Model Training Stage"
     ModelTrainingPipeline(STAGE_NAME).initiate_model_training()
+
+    STAGE_NAME = "Model Evaluation Stage"
+    ModelEvaluationPipeline(STAGE_NAME).initiate_model_evaluation()
     
 
 

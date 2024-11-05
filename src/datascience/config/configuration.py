@@ -1,6 +1,6 @@
 from src.datascience.constants import CONFIG_FILEPATH, PARAMS_FILEPATH, SCHEMA_FILEPATH
 from src.datascience.utils.commons import read_yaml, create_directories
-from src.datascience.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig
+from src.datascience.entity.config_entity import DataIngestionConfig, DataValidationConfig, DataTransformationConfig, ModelTrainerConfig, ModelEvaluationConfig
 
 class ConfigurationManager():
     def __init__(self, # recebe os parâmetros que seram usados para instanciar as propriedades p/leitura
@@ -82,3 +82,25 @@ class ConfigurationManager():
             )
         
         return model_trainer_config
+    
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        
+        config = self.config.model_evaluation # change the "section" of the config file
+        params = self.params.ElasticNet # change the "section" of the config file
+
+
+        create_directories([config.root_dir]) # cria o /artifacts/model_evaluation
+
+        model_evaluation_config = ModelEvaluationConfig(
+            # config.yaml
+            root_dir= config.root_dir,
+            X_test_data_path= config.X_test_data_path, 
+            y_test_data_path= config.y_test_data_path,
+            model_path= config.model_path,
+            metric_file_name= config.metric_file_name,
+
+            #params.yaml
+            all_params= params,
+            )
+        
+        return model_evaluation_config    
